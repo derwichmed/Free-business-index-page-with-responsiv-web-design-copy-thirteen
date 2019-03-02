@@ -1,0 +1,341 @@
+body{
+    background-color: #f2f1fa
+}
+body > header .nav_one{
+    background-color: white;
+    padding-left: 60px
+}
+body > header .nav_one .item{
+    height: 60px;
+    border-left: #ebeaea 1px solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 18px 
+}
+body > header .nav_one .contact_info{
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: #454545;
+}
+body > header .nav_one .contact_info img{
+    float: left;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    margin-top: 5px
+}
+body > header .nav_one .sigle{
+    height: 150px;
+    background-color: white;
+    border: #ebeaea 1px solid;
+}
+body > header .nav_one .sigle img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    height: 100px
+}
+body > header .nav_one .social_media{
+    padding: 0px;
+    padding-top: 22px
+}
+body > header .nav_one .social_media div{
+    display: inline-block;
+    background-color: #2f1e65;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding: 0px;
+    margin-left: 12px
+}
+body > header .nav_one .social_media div img{
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 5px
+}
+body > header .nav_two{
+    background-color: rgba(42,0,91,.80);
+    padding-left: 330px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+body > header .nav_two .nav_bar .nav_bar_item{
+    display: inline-block;
+    color: white;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer
+}
+body > header .nav_two .nav_bar .nav_bar_item + .nav_bar_item{
+    margin-left: 50px
+}
+body > header .nav_two .nav_bar .nav_bar_item .drom_down_img{
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 7px
+}
+body > header .nav_two .icons_nav{
+    padding-right: 35px
+}
+body > header .nav_two .icons_nav > div{
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer
+}
+body > header .nav_two .icons_nav > div img{
+    width: 20px;
+    height: 20px
+}
+.business_desc > div{
+    width: 100%;
+    height: 600px;
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 50px;
+}
+.business_desc h1{
+    color: white;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.business_desc p{
+    color: white;
+    font-weight: bold
+}
+.business_desc input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    background-image: linear-gradient(to bottom,#81fa00,#16bb0f);
+    cursor: pointer
+}
+.lst_services_one{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+.lst_services_one .item{
+    width: 350px;
+}
+.lst_services_one .item > div{
+    position: relative;
+    padding-top: 50px
+}
+.lst_services_one .item .icon{
+    margin: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+.lst_services_one .item .icon img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 10px
+}
+.lst_services_one .item .icon > div{
+    height: 80px;
+    width: 80px;
+    background-image: linear-gradient(to top right,#81fa00,#16bb0f);
+    border-radius: 100%
+}
+.lst_services_one .item .description{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.about_us{
+    padding: 50px;
+    background-color: white
+}
+.about_us .image img{
+    width: 100%;
+    height: 350px;
+    box-shadow: 0px 2px 50px #7b7b7b;
+}
+.about_us .title{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #23006a;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about_us .desc{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #431a77;
+    margin-bottom: 20px
+}
+.about_us input{
+    width: 150px;
+    border-radius: 8px;
+    background-color: #c3c3c3;
+    color: black;
+    font-family: "Raleway";
+    height: 40px;
+    border: none;
+    cursor: pointer
+}
+.lst_services_two{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.lst_services_two header{
+    text-align: left
+}
+.lst_services_two header .title{
+    color: #33076c;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 35px
+}
+.lst_services_two header .description{
+    color: #33076c;
+    font-family: "Raleway";
+    line-height: 30px
+}
+.lst_services_two .item{
+    margin-top: 50px
+}
+.lst_services_two .item > div >  img{
+    width: 380px;
+    height: 200px
+}
+.lst_services_two .item > div{
+    position: relative;
+}
+.lst_services_two .item .description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+.lst_services_two footer button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    background-image: linear-gradient(to bottom,#81fa00,#16bb0f);
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.nav_bar_menu_mobile{
+    display: none
+}
+.nav_bar_menu_mobile img{
+    width: 50px;
+    height: 50px
+}
+@media(min-width: 950px){
+    body > header .nav_one{
+        height: 60px;
+    }
+}
+@media(max-width: 950px){
+    .nav_bar_menu_mobile{
+        display: inline-block
+    }
+    body > header .nav_one{
+        text-align: center
+    }
+    body > header .nav_one .item{
+        border: none
+    }
+    body > header .nav_two .nav_bar{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 60px;
+        background-color: rgba(42,0,91,.80);
+        padding: 15px;
+        display: none
+    }
+    body > header .nav_two .nav_bar .nav_bar_item{
+        width: 100%;
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: white 2px solid;
+        background-color: #6d6d6d
+    }
+    body > header .nav_two .nav_bar .nav_bar_item + .nav_bar_item{
+        margin: 0px
+    }
+    body > header .nav_two{
+        padding-left: 5px
+    }
+    body > header .nav_two{
+        padding-right: 25px;
+        padding-left: 25px
+    }
+    body > header .nav_two .icons_nav{
+        padding-top: 10px
+    }
+    .business_desc > div{
+        padding-top: 70px;
+        padding-left: 5px;
+        padding-right: 5px
+    }
+    .business_desc h1{
+        font-size: 30px
+    }
+    .lst_services_one .item{
+        margin-bottom: 50px
+    }
+    .lst_services_one{
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    .about_us{
+        padding: 5px
+    }
+    .lst_services_two{
+        padding: 15px;
+        padding-left: 40px
+    }
+    .lst_services_two .item > div >  img{
+        width: 100%;
+        margin-bottom: 50px
+    }
+}
+
+
+
+
